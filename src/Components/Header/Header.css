@@ -1,0 +1,49 @@
+header {
+    width: 100%;
+    line-height: 55px;
+    background-color: transparent;
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: 0px 0px 1px #c1c1c3;
+}
+.logo {
+    width: 20%;
+    float: left;
+    display: flex;
+}
+.logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+}
+.logo a img {
+    width: 140px;
+}
+nav {
+    width: 80%;
+    float: right;
+}
+nav ul {
+    list-style: none;
+    float: right;
+    display: flex;
+}
+nav ul li {
+    display: flex;
+}
+nav ul li a {
+    padding: 0 15px;
+    color: #333;
+}
+.logIn {
+    background: rgb(210, 106, 66);
+    padding: 7px 20px;
+    color: #fff;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+.logIn:hover {
+    background: rgb(255, 97, 35);
+    color: rgb(255, 255, 255);
+}

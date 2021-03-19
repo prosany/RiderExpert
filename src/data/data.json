@@ -1,0 +1,150 @@
+[
+	{
+		"id" : 1,
+		"name" : "Bike",
+		"IMGURL" : "https://i.ibb.co/hHsdCFC/Frame.png",
+		"Category" : [
+			{
+				"id" : "BDBIK1",
+				"CategoryName" : "Bike",
+				"Seat" : 20,
+				"Price" : 40
+			},
+			{
+				"id" : "BDBIK2",
+				"CategoryName" : "Bike",
+				"Seat" : 10,
+				"Price" : 10
+			},
+			{
+				"id" : "BDBIK3",
+				"CategoryName" : "Bike",
+				"Seat" : 15,
+				"Price" : 35
+			},
+			{
+				"id" : "BDBIK4",
+				"CategoryName" : "Bike",
+				"Seat" : 60,
+				"Price" : 90
+			},
+			{
+				"id" : "BDBIK5",
+				"CategoryName" : "Bike",
+				"Seat" : 100,
+				"Price" : 120
+			}
+		]
+	},
+	{
+		"id" : 2,
+		"name" : "Car",
+		"IMGURL" : "https://i.ibb.co/xJY1kMf/Frame-2.png",
+		"Category" : [
+			{
+				"id" : "BDCAR1",
+				"CategoryName" : "Car",
+				"Seat" : 20,
+				"Price" : 40
+			},
+			{
+				"id" : "BDCAR2",
+				"CategoryName" : "Car",
+				"Seat" : 10,
+				"Price" : 10
+			},
+			{
+				"id" : "BDCAR3",
+				"CategoryName" : "Car",
+				"Seat" : 15,
+				"Price" : 35
+			},
+			{
+				"id" : "BDCAR4",
+				"CategoryName" : "Car",
+				"Seat" : 60,
+				"Price" : 90
+			},
+			{
+				"id" : "BDCAR5",
+				"CategoryName" : "Car",
+				"Seat" : 100,
+				"Price" : 120
+			}
+		]
+	},
+	{
+		"id" : 3,
+		"name" : "Bus",
+		"IMGURL" : "https://i.ibb.co/yFfkpDt/Frame-1.png",
+		"Category" : [
+			{
+				"id" : "BDBUS1",
+				"CategoryName" : "Bus",
+				"Seat" : 20,
+				"Price" : 40
+			},
+			{
+				"id" : "BDBUS2",
+				"CategoryName" : "Bus",
+				"Seat" : 10,
+				"Price" : 10
+			},
+			{
+				"id" : "BDBUS3",
+				"CategoryName" : "Bus",
+				"Seat" : 15,
+				"Price" : 35
+			},
+			{
+				"id" : "BDBUS4",
+				"CategoryName" : "Bus",
+				"Seat" : 60,
+				"Price" : 90
+			},
+			{
+				"id" : "BDBUS5",
+				"CategoryName" : "Bus",
+				"Seat" : 100,
+				"Price" : 120
+			}
+		]
+	},
+	{
+		"id" : 4,
+		"name" : "Train",
+		"IMGURL" : "https://i.ibb.co/L9MXTxK/Group.png",
+		"Category" : [
+			{
+				"id" : "BDTRN1",
+				"CategoryName" : "Train",
+				"Seat" : 20,
+				"Price" : 40
+			},
+			{
+				"id" : "BDTRN2",
+				"CategoryName" : "Train",
+				"Seat" : 10,
+				"Price" : 10
+			},
+			{
+				"id" : "BDTRN3",
+				"CategoryName" : "Train",
+				"Seat" : 15,
+				"Price" : 35
+			},
+			{
+				"id" : "BDTRN4",
+				"CategoryName" : "Train",
+				"Seat" : 60,
+				"Price" : 90
+			},
+			{
+				"id" : "BDTRN5",
+				"CategoryName" : "Train",
+				"Seat" : 100,
+				"Price" : 120
+			}
+		]
+	}
+]

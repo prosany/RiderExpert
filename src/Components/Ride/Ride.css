@@ -1,0 +1,16 @@
+.Ride {
+    width: 23%;
+    margin: 0 1% 0 1%;
+    float: left;
+    background: #fff;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.Ride img {
+    width: 110px;
+    height: auto;
+}
+h3 {
+    color: #333;
+    margin-top: 8px;
+}

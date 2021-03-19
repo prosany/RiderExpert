@@ -1,0 +1,14 @@
+.poster {
+  height: 100vh;
+  background: url('../../media/bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  position: relative;
+}
+.SelectRide {
+  position: absolute;
+  top: 30%;
+  width: 90%;
+  text-align: center;
+}
