@@ -12,7 +12,7 @@ const RideDestination = () => {
         setAvaRide(rideInfo);
     }, [ride]);
 
-    console.log("Hi", avaRide[0].Category)
+    console.log("Hi >", avaRide[0].Category)
     return (
         <div>
             {/* {
