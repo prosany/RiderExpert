@@ -18,10 +18,10 @@ const Header = () => {
                     </div>
                     <nav>
                         <ul>
-                            <li><Link to="/">Home</Link></li>
+                            <li className="hideOnMobile"><Link to="/">Home</Link></li>
                             <li><Link to="/destination">Destination</Link></li>
-                            <li><Link to="/blog">Blog</Link></li>
-                            <li><Link to="/contact-us">Contact</Link></li>
+                            <li className="hideOnMobile"><Link to="/blog">Blog</Link></li>
+                            <li className="hideOnMobile"><Link to="/contact-us">Contact</Link></li>
                             {
                                 loggedInUser.email ? <li><Link to="/">{loggedInUser.displayName}</Link></li> : <li><Link to="/login"><span className="logIn">Login</span></Link></li>
                             }

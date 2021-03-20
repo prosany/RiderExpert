@@ -47,3 +47,10 @@ nav ul li a {
     background: rgb(255, 97, 35);
     color: rgb(255, 255, 255);
 }
+
+
+@media (max-width: 768px) {
+    .hideOnMobile {
+        display: none;
+    }
+}
