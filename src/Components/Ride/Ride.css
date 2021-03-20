@@ -2,15 +2,37 @@
     width: 23%;
     margin: 0 1% 0 1%;
     float: left;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
     padding: 20px 0;
     border-radius: 10px;
+    border: 1px solid #dcdcdc;
 }
 .Ride img {
     width: 110px;
-    height: auto;
+    height: 100px;
 }
 h3 {
     color: #333;
     margin-top: 8px;
+}
+
+
+
+@media (max-width: 768px) {
+    .Ride {
+        width: 31%;
+        margin-bottom: 12px;
+    }
+}
+@media (max-width: 576px) {
+    .Ride {
+        width: 48%;
+        margin-bottom: 12px;
+    }
+}
+@media (max-width: 450px) {
+    .Ride {
+        width: 98%;
+        margin-bottom: 12px;
+    }
 }

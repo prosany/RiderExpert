@@ -2,12 +2,7 @@ import React from 'react';
 import './Ride.css';
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
     Link,
-    Redirect,
-    useHistory,
-    useLocation
 } from "react-router-dom";
 
 const Ride = (props) => {

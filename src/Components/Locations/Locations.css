@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600;700&display=swap');
+
+.availableRide {}
+
+
+.destination {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #d26a42;
+    padding: 15px;
+    border-radius: 10px;
+}
+.leftD {
+    color: #fff;
+}
+.rightD {
+    color: #fff;
+}
+
+
+
+
+
+.rideInfo {
+    width: 80%;
+    border: 1px solid #f7f7f7;
+    margin: 5px 0;
+    overflow: hidden;
+    line-height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.rideImg {
+    float: left;
+    display: flex;
+    margin-right: 20px;
+    line-height: 40px;
+}
+.rideImg img {
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+.rideType {
+    float: left;
+    line-height: 40px;
+    font-size: 20px;
+}
+.rideSeat {
+    float: left;
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.rideSeat span {
+    font-size: 13px;
+    margin-right: 8px;
+}
+.ridePrice {
+    float: right;
+    line-height: 40px;
+}
+.taka {
+    font-family: 'Baloo Da 2', cursive;
+}
+
+
+
+@media (max-width: 930px) {
+    .destination {
+        width: 100%;
+    }
+    .rideInfo {
+        width: 100%;
+    }
+}

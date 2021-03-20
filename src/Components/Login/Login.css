@@ -1,25 +1,66 @@
 .Login-system {
     width: 100%;
-    height: 95vh;
+    text-align: center;
 }
 .Login-form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    overflow: hidden;
+    margin-top: 20px;
 }
-.Login-form form input[type="text"] {
-    padding: 5px;
-    border: none;
-    border: 1px solid #929292;
-    outline: none;
-    background: #fff;
-    margin: 10px 0;
+.Login-form > h1 {
+    margin-bottom: 15px;
 }
-.Login-form input[type="password"] {
-    padding: 5px;
-    border: none;
-    border-bottom: 1px solid #929292;
+.Login-form > form input[type="text"], form input[type="password"] {
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+    width: 30%;
+    height: 35px;
     outline: none;
-    background: #fff;
+    padding: 6px 10px;
+}
+.Login-form > form input[type="text"]:hover, form input[type="password"]:hover {
+    border: 1px solid #d2d2d2;
+    outline: 0;
+    shadow: none;
+}
+.Login-form > form input[type="text"]:focus, form input[type="password"]:focus {
+    outline: 0;
+}
+
+.Login-form > form input[type="submit"] {
+    margin-top: 20px;
+    background: rgb(210, 106, 66);
+    border-radius: 6px;
+    width: 30%;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgb(210, 106, 66);
+    height: 35px;
+    outline: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+
+.moreOptions {
+    margin: 20px 0;
+}
+
+.GoogleSignIn-Btn, .GitHubSignIn-Btn {
+    margin-bottom: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    width: 30%;
+    color: #111;
+    font-size: 14px;
+    border: 1px solid rgb(184, 184, 184);
+    height: 35px;
+    outline: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.GoogleSignIn-Btn img, .GitHubSignIn-Btn img {
+    width: 16px;
+    height: 16px;
 }

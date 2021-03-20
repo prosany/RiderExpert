@@ -12,3 +12,14 @@
   width: 90%;
   text-align: center;
 }
+
+
+
+@media (max-width: 768px) {
+  .poster {
+    height: 105vh;
+  }
+  .SelectRide {
+    top: 10%;
+  }
+}

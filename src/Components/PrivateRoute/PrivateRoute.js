@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { Redirect, Route } from 'react-router';
 import { UserContext } from '../../App';
 

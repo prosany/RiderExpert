@@ -1,0 +1,59 @@
+.RideD {
+    margin-top: 20px;
+}
+.LeftDesti {
+    width: 29%;
+    margin-left: 1%;
+    float: left;
+}
+.RightDestiGoolgeMap {
+    width: 69%;
+    margin-right: 1%;
+}
+
+
+#pickTo, #pickFrom {
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+    width: 90%;
+    height: 35px;
+    outline: none;
+    padding: 6px 10px;
+}
+#pickSearch {
+    margin-top: 20px;
+    background: rgb(210, 106, 66);
+    border-radius: 6px;
+    width: 90%;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgb(210, 106, 66);
+    height: 35px;
+    outline: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+
+
+
+.RightDestiGoolgeMap {
+    float: left;
+    width: 67%;
+    margin-left: 1%;
+}
+
+
+@media (max-width: 930px) {
+    .LeftDesti {
+        width: 98%;
+    }
+    .RightDestiGoolgeMap {
+        width: 98%;
+        margin-top: 15px;
+    }
+    #pickSearch, #pickTo, #pickFrom {
+        width: 100%;
+    }
+}
