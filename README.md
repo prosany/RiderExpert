@@ -23,6 +23,6 @@ You can use this project by some simple step.
     b) Write npm install
     c) Wait for few seconds or minutes depending on your internet speed
     d) Done.
-4. How You Can Use This Project.
+4. Now You Can Use This Project.
 
 Thanks for visit.
