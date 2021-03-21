@@ -1,36 +1,61 @@
 .Login-system {
     width: 100%;
-    text-align: center;
 }
 .Login-form {
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 30px;
 }
-.Login-form > h1 {
-    margin-bottom: 15px;
+
+.custom__form {
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    padding: 15px;
+    width: 40%;
+    margin: 0 auto;
 }
-.Login-form > form input[type="text"], form input[type="password"] {
+.custom__form h1 {
+    margin: 0 0 10px 0;
+}
+.Rem-Frg {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 10px;
+}
+.forgot-pass, #check {
+    color: #d26a42;
+}
+.check {
+    margin-left: 8px;
+}
+label {
+    display: inline-block;
+    margin: 5px 0;
+}
+.Login-Reg-Link {
+    text-align: center;
+    margin-top: 15px;
+}
+.pointer {
+    cursor: pointer;
+    color: #d26a42;
+    margin-left: 8px;
+}
+
+
+
+#email, #UserName, #password, #confirmPassword {
     border: 1px solid #d2d2d2;
     border-radius: 6px;
-    width: 30%;
+    width: 100%;
     height: 35px;
     outline: none;
     padding: 6px 10px;
 }
-.Login-form > form input[type="text"]:hover, form input[type="password"]:hover {
-    border: 1px solid #d2d2d2;
-    outline: 0;
-    shadow: none;
-}
-.Login-form > form input[type="text"]:focus, form input[type="password"]:focus {
-    outline: 0;
-}
-
-.Login-form > form input[type="submit"] {
+.btn-submit {
     margin-top: 20px;
-    background: rgb(210, 106, 66);
+    background: #d26a42;
     border-radius: 6px;
-    width: 30%;
+    width: 100%;
     color: #fff;
     font-size: 16px;
     border: 1px solid rgb(210, 106, 66);
@@ -44,6 +69,10 @@
 
 .moreOptions {
     margin: 20px 0;
+    text-align: center;
+}
+.socialSignIn {
+    text-align: center;
 }
 
 .GoogleSignIn-Btn, .GitHubSignIn-Btn {
@@ -63,4 +92,16 @@
 .GoogleSignIn-Btn img, .GitHubSignIn-Btn img {
     width: 16px;
     height: 16px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .custom__form {
+        width: 90%;
+    }
+    .GoogleSignIn-Btn, .GitHubSignIn-Btn {
+        width: 90%;
+    }
 }

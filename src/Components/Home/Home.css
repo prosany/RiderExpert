@@ -14,10 +14,17 @@
 }
 
 
-
 @media (max-width: 768px) {
   .poster {
     height: 105vh;
+  }
+  .SelectRide {
+    top: 10%;
+  }
+}
+@media (max-width: 668px) {
+  .poster {
+    height: 150vh;
   }
   .SelectRide {
     top: 10%;
