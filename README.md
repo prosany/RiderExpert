@@ -20,7 +20,9 @@ You can use this project by some simple step.
 3. Install NPM
 ### **Steps:**
     a) Open Terminal
-    b) Write `npm install`
+    b) Write npm install
     c) Wait for few seconds or minutes depending on your internet speed
     d) Done.
 4. How You Can Use This Project.
+
+Thanks for visit.
